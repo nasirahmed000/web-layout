@@ -1,0 +1,120 @@
+.header{
+    min-height: 100px;
+    background-color: blue;
+}
+.container , .container2{
+       overflow: hidden;
+       border: 10px red;
+}
+.blog{
+    float: left; 
+    width: 50%;
+    height: 200px;
+    background-color: chartreuse;
+   
+}
+.contact{
+    float: right;
+    width: 50%;
+    height: 200px;
+    background-color: darkorange;
+
+   
+}
+
+.single{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+   
+}
+.skyblue{
+    background-color: skyblue;
+
+}
+.navyblue{
+    background-color: aqua;
+
+}
+.green{
+    background-color: darkgreen;
+}
+footer{
+    min-height: 100px;
+    background-color:black;
+}
+
+input[type=checkbox] {
+    accent-color: red;
+  }
+  
+  input[type=radio] {
+    accent-color: green;
+  }
+  
+  input[type=range] {
+    accent-color: rgb(0, 0, 255);
+  }
+  
+  progress {
+    accent-color: hsl(39, 100%, 50%);
+  }
+
+  h1{
+    text-align: center;
+    font-size: 100px;
+    background-color: aqua;
+}
+.mega-box{
+    width: 500px;
+    height: 400px ;
+    border: 5px solid steelblue;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.mango-people{
+    width: 500px;
+    height: 400px ;
+    border: 5px solid brown;
+   
+}
+.mini-mini{
+    width: 150px;
+    border:3px solid indianred ;
+    overflow: hidden;
+
+}
+.short-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid indigo;
+ }
+ #box-1{
+    background-color: khaki;
+ }
+ #box-2{
+    background-color: seagreen;
+ }
+ #box-3{
+    background-color: sandybrown;
+    /* visibility: hidden; */
+    visibility: visible;
+ }
+ #box-4{
+    background-color: skyblue;
+    display: none;
+ }
+ a[target=_blank] {
+    background-color: yellow;
+  }
+  a:hover {
+    background-color: yellow;
+  }
+  a:visited {
+    color: pink;
+  }
